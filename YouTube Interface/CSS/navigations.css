@@ -1,0 +1,377 @@
+/*TOP NAVIGATION*/
+
+.search-nav-container{
+    padding: 8px 1% ;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    /*box-shadow: 0 0 10px rgba(0,0,0,0.2);*/
+    border-bottom: 1px rgb(217,217,217) solid;
+    
+    top: 0;
+    position: relative;
+}
+
+/*Search Section*/
+
+.center-nav{
+    position: sticky;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+
+#search-bar{
+    border: 1px rgb(211,211,211) solid;
+
+    padding-left: 6px;
+
+    width: 35%;
+    height: 100%;
+
+    font-size: 16px;
+}
+
+.magnif-container{
+    background-color: rgb(248,248,248);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px rgb(211,211,211) solid;
+    border-left: none;
+
+    height: 100%;
+    width: 65px;
+}
+
+.magnif-container #icon{
+    background-color: rgb(248,248,248);
+    display: flex;
+
+    height: 21px;
+}
+
+
+.voice-container{
+    background-color: rgb(249, 249, 249);
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100%;
+    margin: 9px;
+    width: 40px;
+
+    border-radius: 50%;
+}
+
+.voice-container #icon{
+    width: 22px;
+}
+
+/*Account and Settings Section*/
+
+.right-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+
+    width: 160px;
+}
+
+.right-nav #dots{
+    height: 20px;
+    margin-right: 20px;
+}
+
+
+.sign-in-container{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items:center;
+
+    width: 100%;
+    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    padding-bottom: 3px;
+
+    border: 1px rgb(6, 95, 212) solid;
+}
+
+.sign-in-container p{
+    font-weight: bolder;
+    font-size: 13px;
+    margin-bottom: 1px;
+    border: rgb(229,229,229);
+    color: rgb(6, 95, 212);
+}
+
+.sign-in-container #icon{
+
+    margin-right: 5px;
+    width:26px;
+
+    color: rgb(6, 95, 212);
+}
+
+
+/* Category Section*/
+
+.category-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+
+    padding: 8px 1% ;
+    border-bottom: 1px rgb(217,217,217) solid;
+}
+
+.category-container a{
+    background-color: rgb(242, 242, 242);
+    border: 1px rgb(217,217,217) solid;
+
+    margin: 3px;
+    padding: 7px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+    border-radius: 60px;
+
+    font-size: 14px;
+}
+
+.category-container #all{
+    background-color: black;
+    border: 1px black solid;
+    color: white
+}
+
+/*SIDE NAVIGATION*/
+
+
+/*Menu and Logo Section*/
+
+.menu-logo-container{
+    padding: 18px;
+    padding-right: 59px;
+    padding-left: 27px;
+    justify-content: space-between;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+
+    padding-top: 13px;
+
+}
+
+.menu-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-container #icon{
+    height: 20px;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-container #icon{
+    height: 26px;
+}
+
+/*Content Navigation Container*/
+.content-nav-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    overflow-y: scroll;
+}
+
+.content-nav-container div{
+    display: flex;
+    flex-direction: column;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+    border-bottom: 1px rgb(217,217,217) solid;
+}
+
+.content-nav-container .section{
+    display: flex;
+    flex-direction: column;
+    padding-top: 11px;
+    padding-bottom: 11px;
+
+    border-bottom: 1px rgb(217,217,217) solid;
+}
+
+
+
+.content-nav-container .section a{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding:9px;
+    padding-left: 27px;
+
+    font-size: 14px;
+    
+}
+
+.content-nav-container .section #a-icon{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding:9px;
+    padding-left: 27px;
+    border-top: 1px rgb(217,217,217) solid;
+
+
+    border-top: 1px ;
+    font-size: 14px;
+    
+}
+
+
+
+.content-nav-container div a:hover{
+    background-color: rgb(242,242,242);
+}
+
+.content-nav-container .section p{
+    background-color: wheat;
+    display: flex;
+    align-items: center;
+    padding:9px;
+    padding-left: 30px;
+    line-height: 18px;
+
+    font-size: 14px;
+    
+}
+
+.content-nav-container .section1{
+    border-bottom: 1px;
+    margin-bottom: 0px;
+}
+
+.content-nav-container .section1 p{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding:9px;
+    padding-left: 30px;
+    line-height: 18px;
+
+    font-size: 14px;
+    
+}
+
+.content-nav-container div #icon{
+    margin-right: 26px;
+
+    width: 16px;
+    height: 18px;
+}
+
+.content-nav-container div #icon1{
+    margin-right: 26px;
+
+    width: 19px;
+    height: 21px;
+}
+
+.content-nav-container .company-info{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding-top: 11px;
+    padding-left: 27px;
+
+    border-bottom: 1px solid white;
+
+    color:rgb(96, 96, 96)
+}
+
+.company-info .info{
+    padding: 2px;
+    font-size: 13px;
+    margin-right: 4px;
+
+    font-weight: bold;
+}
+
+#icon-sign-in{
+    width: 26px;
+}
+
+.content-nav-container .sign-in-container1{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+    padding: 5px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    margin-left: 30px;
+
+    width: 115px;
+
+    border: 1px rgb(6, 95, 212) solid;
+}
+
+
+
+.content-nav-container .sign-in-container1 p{
+    font-weight: bolder;
+    font-size: 13px;
+    margin-bottom: 1px;
+    border: rgb(229,229,229);
+    color: rgb(6, 95, 212);
+}
+
+.sign-in-container1 #icon-sign-in{
+    height: 26px;
+    margin-right: 8px;
+}
+
+#google_copyright{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 12px;
+    color:rgb(144, 146, 148)
+}
+
+#google_copyright #c-icon{
+    height: 10px;
+    margin-right: 5px;
+}
+
+
+
+
+
+
